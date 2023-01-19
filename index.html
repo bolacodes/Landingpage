@@ -7,30 +7,135 @@
     <link rel="shortcut icon" href="./img/favicon-32x32 (1).png" type="image/x-icon">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
     <title>Huddle</title>
 </head>
 <body>
     <header>
         <nav>
-            <img src="./img/logo.svg" alt="logo">
+            <img src="./img/logo.svg" alt="logo" class="logo">
+
             <button class="nav-btn">Try it Free</button>
         </nav>
 
         <div class="hero">
             <div class="hero-info">
-                <h1>
-                    Build The Community Your Fans Will Love
-                </h1>
-                <p>
-                    Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussions.
+                <h1>Build The Community <br> Your Fans Will Love</h1>
+                <p class="hero-content">Huddle re-imagines the way we build communities. <br /> You have a voice, but so does your audience. <br> Create connections with your users as you engage in <br> genuine discussions.
                 </p>
                 <button class="hero-btn">Get Started For Free</button>
             </div>
 
-            <img src="./img/illustration-mockups.svg" alt="Illustrations">
+            <img src="./img/illustration-mockups.svg" alt="Illustrations" class="hero-logo">
         </div>
     </header>
+
+    <main>
+        <div class="content-box" id="content-one">
+            <div class="box-column">
+                <h2 class="content-head">Grow Together</h2>
+
+                <p class="content-body">
+                        Generate meaningful discussions withh your audience and build a strong, loyal community. Think of the insightful
+                        conversations you miss out with a feedback form.
+                </p>
+            </div>
+
+            <div class="box-column">
+                <img src="./img/illustration-grow-together.svg" alt="Grow together illustration" class="content-img">
+            </div>
+        </div>
+
+        <div class="content-box" id="content-two">
+            <div class="box-column">
+                <img src="./img/illustration-flowing-conversation.svg" alt="Flowing conversation illustration" class="content-img">
+            </div>
+
+            <div class="box-column">
+                <h2 class="content-head">Flowing Conversations</h2>
+
+                <p class="content-body">
+                    You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.
+                </p>
+            </div>
+        </div>
+
+        <div class="content-box" id="content-three">
+            <div class="box-column">
+                <h2 class="content-head">Your Users</h2>
+
+                <p class="content-body">
+                    It takes no time at all to integrate hubble with your app's authentication solution. This means once signed in to your app, your users can start chatting immediately.
+                </p>
+            </div>
+
+            <div class="box-column">
+                <img src="./img/illustration-your-users.svg" alt="Your users illustration" class="content-img">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="./img/footer.svg" alt="Footer logo" class="foot-logo">
+        </div>
+
+        <div class="footer-main">
+            <div class="foot-a">
+                <div class="a-icons">
+                    <div class="icon-wrap">
+                        <img src="./img/icon-location.svg" alt="Icon image" class="icons-img">
+                    </div>
+
+                    <div class="icon-txt-wrap">
+                        <p class="icon-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="a-icons">
+                    <div class="icon-wrap">
+                        <img src="./img/icon-phone.svg" alt="Icon image" class="icons-img">
+                    </div>
+
+                    <div class="icon-txt-wrap">
+                        <p class="icon-text">+1-543-123-4567</p>
+                    </div>
+                </div>
+
+                <div class="a-icons">
+                    <div class="icon-wrap">
+                        <img src="./img/icon-email.svg" alt="Icon image" class="icons-img">
+                    </div>
+
+                    <div class="icon-txt-wrap">
+                        <p class="icon-text">example@hubble.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="foot-b">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">What We Do</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="foot-c">
+                <ul>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-credit">
+            <p class="copyright">&COPY;Copyright 2018 Huddle. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
